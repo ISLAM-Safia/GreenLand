@@ -472,15 +472,16 @@
         font-size: 1.2em;
     }
     .slider-navigation {
-        bottom: 3rem;
+        /* bottom: 3rem; */
+        display: none;
     }
-    .slider-navigation .nav-btn {
+    /* .slider-navigation .nav-btn {
         width: 10px;
         height: 10px;
     }
     .slider-navigation .nav-btn:not(:last-child) {
         margin-left: 13px;
-    }
+    } */
     .home .media-icons {
         width: 85%;
         bottom: 0px;
@@ -520,15 +521,16 @@
         font-size: 1em;
     }
     .slider-navigation {
-        bottom: 3rem;
+        /* bottom: 3rem; */
+        display: none;
     }
-    .slider-navigation .nav-btn {
+    /* .slider-navigation .nav-btn {
         width: 10px;
         height: 10px;
     }
     .slider-navigation .nav-btn:not(:last-child) {
         margin-left: 13px;
-    }
+    } */
     .hourglass-container .fa-hourglass-half {
         font-size: 1.2em;
     }
