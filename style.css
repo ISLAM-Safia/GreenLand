@@ -445,6 +445,10 @@
 
 /* الهواتف الصغيرة */
 @media (max-width: 575px) {
+    .home video {
+        pointer-events: none;
+        user-select: none;
+    }
     .home .content {
         width: 95%;
     }
@@ -491,6 +495,11 @@
 }
 
 @media (max-width: 320px) {
+    .home video {
+        pointer-events: none;
+        user-select: none;
+    }
+
     .home .content h1 {
         font-size: 1em;
         line-height: 25px;
